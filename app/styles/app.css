@@ -9,7 +9,7 @@ html, body, .wrapper {
 }
 
 .header {
-  background: green;
+  background: #59ABE3;
   height: 60pt;
 }
 
@@ -21,12 +21,46 @@ html, body, .wrapper {
 .sidebar {
   float: left;
   width: 20%;
-  background: #ccc;
+  background: #86E2D5;
   min-height: 500px;
+}
+
+.sidebar ul {
+
+}
+
+.sidebar a {
+  color: #22313F;
+  text-decoration: none;
+  padding: 10pt 20pt;
+  display: block;
+}
+
+.sidebar a:hover {
+  background: lightblue;
+  color: #fff;
 }
 
 .content {
   float: right;
   width: 80%;
   background: lightyellow;
+}
+
+.sidebar-avatar {
+  margin-bottom: 20pt;
+  margin: 20pt;
+  text-align: center;
+}
+
+.sidebar-avatar img {
+  height: 100pt;
+  width: 100pt;
+  border-radius: 50pt;
+  margin-bottom: 20pt;
+}
+
+.sidebar-avatar .name {
+  color: #fff;
+  font-weight: bold;    
 }
