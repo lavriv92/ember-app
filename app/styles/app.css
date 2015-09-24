@@ -99,4 +99,20 @@ button {
   border-radius: 10pt;
   border: none;
   font-size: 16pt;
+  cursor: pointer;
+}
+
+
+.login {
+  width: 400pt;
+  padding-top: 60pt;
+  margin: 0 auto;
+}
+
+.message {
+  padding: 20pt;
+  background: lightblue;
+  position: absolute;
+  width: 100%;
+  color: #fff;
 }
