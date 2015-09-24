@@ -1,5 +1,12 @@
-<div class="login">
+<div class="page login">
   <h2>Login</h2>
-  <div class="input-group"></div>
-  <div class="input-method"></div>
+  <div class="input-group">
+    {{input placeholder="Username" value=username}}
+  </div>
+  <div class="input-group">
+    {{input placeholder="Password" type="password" value=password}}
+  </div>
+  <div class="input-group">
+    <button type="button" name="button" {{action "login"}}>Login</button>
+  </div>
 </div>

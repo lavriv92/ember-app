@@ -44,7 +44,6 @@ html, body, .wrapper {
 .content {
   float: right;
   width: 80%;
-  background: lightyellow;
 }
 
 .sidebar-avatar {
@@ -62,5 +61,42 @@ html, body, .wrapper {
 
 .sidebar-avatar .name {
   color: #fff;
-  font-weight: bold;    
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 20pt;
+}
+
+.ember-text-field {
+  width: 200pt;
+  height: 30pt;
+  font-size: 16pt;
+  border-radius: 8pt;
+  border: 1px solid #eee;
+  padding: 0 10pt;
+}
+
+.ember-text-field:focus {
+  border: 1px solid lightblue;
+}
+
+.page {
+  padding: 15pt;
+}
+
+.page h2 {
+  font-weight: normal;
+  color: #86E2D5;
+  padding-bottom: 20pt;
+}
+
+button {
+  background:  #86E2D5;
+  color: #fff;
+  height: 30pt;
+  width: 100pt;
+  border-radius: 10pt;
+  border: none;
+  font-size: 16pt;
 }
