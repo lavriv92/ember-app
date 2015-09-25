@@ -1,5 +1,6 @@
 import Ember from 'ember';
 
+
 export default Ember.Route.extend({
   actions: {
     login() {
@@ -9,7 +10,7 @@ export default Ember.Route.extend({
         password: controller.get('password')
       };
 
-      Ember.$.post('/url', session);
+      Ember.$.post('/url', session).then(function () {}).else();
     }
   }
 });
