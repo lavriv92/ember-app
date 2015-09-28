@@ -13,6 +13,7 @@ export default Ember.Route.extend({
     if(loggedIn) {
       this.render('application');
     } else {
+      this.transitionTo('sessions.login');
       this.render('anonymous');
     }
   }

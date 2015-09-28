@@ -9,12 +9,6 @@ export default Ember.Route.extend({
         username: controller.get('username'),
         password: controller.get('password')
       };
-
-      Ember.$.post('/url', session).then(() => {
-        console.log('success');
-      }, (error) => {
-        console.log(error);
-      });
     }
   }
 });
