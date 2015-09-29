@@ -9,7 +9,7 @@ export default Ember.Route.extend({
     }, 2000);
   },
   renderTemplate() {
-    let loggedIn = false;
+    let loggedIn = this.store.get('token');
     if(loggedIn) {
       this.render('application');
     } else {
